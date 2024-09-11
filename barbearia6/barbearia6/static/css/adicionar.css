@@ -1,0 +1,122 @@
+* {
+    font-family: "Sora", system-ui;
+    padding: 0;
+    margin: 0;
+    border-style: none;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: url(./img/horarios.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;
+    z-index: -1;
+    color: #fff;
+}
+
+.logo {
+    margin-top: 100px;
+    margin-left: 50px;
+    text-transform: uppercase;
+    width: 250px;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    gap: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 0 10px #000;
+    background: rgba(0,0,0,0.5);
+    font-size: 30px;
+}
+
+header ul li {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #dba400;
+}
+
+a:active {
+    color: #dba400;
+}
+
+h1 {
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.form-container {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    max-width: 700px; 
+}
+
+button {
+    background-color: #dba400;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b8860b;
+}
+
+.back-link {
+    color: #dba400;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    font-size: 16px;
+}

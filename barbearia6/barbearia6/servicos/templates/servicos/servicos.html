@@ -1,0 +1,69 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia</title>
+    <link rel="stylesheet" href="{% static 'css/servicos.css' %}">
+    <link rel="preconnect" href="{% static 'https://fonts.googleapis.com' %}">
+    <link rel="preconnect" href="{% static 'https://fonts.gstatic.com' %}" crossorigin>
+    <link href="{% static 'https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap' %}"
+        rel="stylesheet">
+    <link rel="icon" href="{% static 'css/img/icon.webp' %}">
+</head>
+
+<body class="background1">
+    <header>
+        <div class="logo">
+            <img src="{% static 'css/img/logo.png' %}" width="200" alt="logo">
+        </div>
+        <ul>
+            <li>
+                <a href="/home/">Home</a>
+                <a href="/servicos/">Serviços</a>
+                <a href="/local/">Local</a>
+                <a href="/horarios/">Horários</a>
+            </li>
+        </ul>
+    </header>
+
+    <section class="card-container">
+        <div class="card">
+          <img src="{% static 'css/img/modelo1.jpg' %}" alt="Descrição do Serviço 1" class="card-image">
+          <div class="card-content">
+            <h2 class="card-title">Queixudinho</h2>
+            <p class="card-description">I'm just Ken, anywhere else I'd be a ten, Is it my destiny to live and die a life of blonde fragility?</p>
+            <a href="https://www.youtube.com/watch?v=xgPYY1GiKyY" class="card-button">Escolher</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="{% static 'css/img/modelo2.jpg' %}" alt="Descrição do Serviço 2" class="card-image">
+          <div class="card-content">
+            <h2 class="card-title">Influencer</h2>
+            <p class="card-description">Aqueles famosinhos que usam uma franja enorme para esconder as entradas.</p>
+            <a href="https://www.youtube.com/watch?v=xgPYY1GiKyY" class="card-button">Escolher</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="{% static 'css/img/modelo3.jpg' %}" alt="Descrição do Serviço 3" class="card-image">
+          <div class="card-content">
+            <h2 class="card-title">Corte Militar</h2>
+            <p class="card-description">Não, você não foi dispensado do exército...</p>
+            <a href="https://www.youtube.com/watch?v=xgPYY1GiKyY" class="card-button">Escolher</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="{% static 'css/img/modelo4.jpg' %}" alt="Descrição do Serviço 4" class="card-image">
+          <div class="card-content">
+            <h2 class="card-title">Poucas ideia</h2>
+            <p class="card-description">Jogador caro não olha pra foto.</p>
+            <a href="https://www.youtube.com/watch?v=xgPYY1GiKyY" class="card-button">Escolher</a>
+          </div>
+        </div>
+      </section>
+      
+</body>
+</html>
